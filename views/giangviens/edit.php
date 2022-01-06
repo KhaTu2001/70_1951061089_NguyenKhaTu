@@ -17,7 +17,7 @@ Họ và tên:
     />
     <br />
     Ngày sinh:
-    <input class="form-control" type="text"
+    <input class="form-control" type="date       "
            name="ngaysinh"
            value="<?php
            echo isset($_POST['ngaysinh']) ? $_POST['ngaysinh'] : $giangvien['ngaysinh']?>"

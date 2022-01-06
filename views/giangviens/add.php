@@ -7,7 +7,6 @@
             <h5 class="text-center text-primary mt-5">Thêm mới giảng viên</h5>
 <div>
 
-<!--</form>-->
 <div style="color: red">
     <?php echo $error; ?>
 </div>
@@ -19,7 +18,7 @@
     </div>
     <br />
     Ngày sinh :
-    <input type="text" class="form-control" name="ngaysinh" value="" />
+    <input type="date" class="form-control" name="ngaysinh" value="" />
     <br />
     Giới tinh :
     <input type="text" class="form-control" name="gioitinh" value="" />

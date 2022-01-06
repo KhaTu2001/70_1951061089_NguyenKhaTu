@@ -42,7 +42,6 @@ require "header.php";
                 <td><?php echo $giangvien['coquan'] ?></td>
                 <td>
                     <?php
-                    //khai báo 3 url xem, sửa, xóa
                     $urlDetail =
                         "index.php?controller=giangvien&action=detail&magv=" . $giangvien['magv'];
                     $urlEdit =

@@ -13,7 +13,6 @@ class giangvien {
 
     public function insert($param = []) {
         $connection = $this->connectDb();
-        //tạo và thực thi truy vấn
         $queryInsert = "INSERT INTO giangvien(`hovaten`,`ngaysinh`,`gioitinh`,`trinhdo`,`chuyenmon`,`hocham`,`hocvi`,`coquan`) 
         VALUES ('{$param['hovaten']}','{$param['ngaysinh']}','{$param['gioitinh']}','{$param['trinhdo']}','{$param['chuyenmon']}','{$param['hocham']}','{$param['hocvi']}','{$param['coquan']}')";
         $isInsert = mysqli_query($connection, $queryInsert);
@@ -34,10 +33,6 @@ class giangvien {
 
         return $giangvien;
     }
-
-    /**
-     * Truy vấn lấy ra tất cả sách trong CSDL
-     */
     public function index() {
         $connection = $this->connectDb();
         //truy vấn
