@@ -3,5 +3,5 @@
 const DB_HOST = 'localhost';
 const DB_USERNAME = 'root';
 const DB_PASSWORD = '';
-const DB_NAME = '1951061089_university';
+const DB_NAME = '1951061089_TLU';
 ?>
